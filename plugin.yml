@@ -1,0 +1,40 @@
+name: Focus
+main: com.mrsweeter.focus.Focus
+version: 1.0
+author: MrSweeter
+description: PvP plugin
+depend: [DreamAPI]
+
+commands:
+  fcolor:
+    description: Open ColorPicker GUI
+    usage: §c/fcolor
+    permission: focus.game.color
+  fstuff:
+    description: Open StuffPicker GUI
+    usage: §c/fstuff
+    permission: focus.game.stuff
+  freload:
+      description: Reload plugin !
+      usage: §c/freload
+      permission: focus.reload
+  fconfig:
+      description: Open configuration menu !
+      usage: §c/fconfig
+      permission: focus.game.config
+  finfo:
+      description: Show info of plugin !
+      usage: §c/finfo
+      permission: focus.info
+  freset:
+      description: Reset settings and create new game
+      usage: §c/freset
+      permission: focus.game.reset
+  focus:
+      description: Start a game
+      usage: §c/focus
+      permission: focus.game.start
+  ftranslate:
+      description: Translate text
+      usage: §c/ftranslate <lang>
+      permission: focus.translate

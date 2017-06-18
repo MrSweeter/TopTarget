@@ -1,0 +1,65 @@
+lang: english
+game:
+  max-players: 16
+  round-delay: 15
+  allow-drop: false
+  allow-pickup: false
+  persistent-arrow: false
+worlds-name:
+- sweetdream
+lobby:
+  spawn: sweetdream%1350.5%103%-249.5
+  lobby-stuff:
+  - sweetdream%1132.5%248%146.5
+  - sweetdream%1123.5%248%146.5
+  - sweetdream%1114.5%248%146.5
+  - sweetdream%1105.5%248%146.5
+  - sweetdream%1096.5%248%146.5
+  - sweetdream%1087.5%248%146.5
+  - sweetdream%1078.5%248%146.5
+  - sweetdream%1069.5%248%146.5
+  - sweetdream%1069.5%248%155.5
+  - sweetdream%1078.5%248%155.5
+  - sweetdream%1087.5%248%155.5
+  - sweetdream%1096.5%248%155.5
+  - sweetdream%1105.5%248%155.5
+  - sweetdream%1114.5%248%155.5
+  - sweetdream%1123.5%248%155.5
+  - sweetdream%1132.5%248%155.5
+parameters:
+  kill-point:
+  - 0
+  - 1
+  - 2
+  - 4
+  - 6
+  kill-limit:
+  - 5
+  - 10
+  - 15
+  - 20
+  - 25
+  max-round:
+  - 5
+  - 10
+  - 15
+  - 20
+  - 25
+  round-point:
+  - 0
+  - 5
+  - 10
+  - 15
+  - 20
+  round-limit:
+  - 3
+  - 5
+  - 7
+  - 9
+  - 15
+  start-point:
+  - 0
+  - 7
+  - 20
+  - 35
+  - 50

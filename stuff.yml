@@ -1,0 +1,471 @@
+helmet:
+  level-1:
+    cost: 2
+    item: LEATHER_HELMET
+    quantity: 1
+    name: ''
+    lore:
+    - '&9+20% Max health'
+    effect:
+    - MAX-HEALTH:20
+  level-2:
+    cost: 4
+    item: GOLD_HELMET
+    quantity: 1
+    name: ''
+    lore:
+    - '&9+40% Max health'
+    effect:
+    - MAX-HEALTH:40
+  level-3:
+    cost: 7
+    item: CHAINMAIL_HELMET
+    quantity: 1
+    name: ''
+    lore:
+    - '&9+60% Max health'
+    effect:
+    - MAX-HEALTH:60
+  level-4:
+    cost: 10
+    item: IRON_HELMET
+    quantity: 1
+    name: ''
+    lore:
+    - '&9+80% Max health'
+    effect:
+    - MAX-HEALTH:80
+  level-5:
+    cost: 15
+    item: DIAMOND_HELMET
+    quantity: 1
+    name: ''
+    lore:
+    - '&9+100% Max health'
+    effect:
+    - MAX-HEALTH:100
+chestplate:
+  level-1:
+    cost: 3
+    item: LEATHER_CHESTPLATE
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Thorns I'
+    enchant:
+    - THORNS:1
+  level-2:
+    cost: 5
+    item: GOLD_CHESTPLATE
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Thorns II'
+    enchant:
+    - THORNS:2
+  level-3:
+    cost: 8
+    item: CHAINMAIL_CHESTPLATE
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Thorns III'
+    enchant:
+    - THORNS:3
+  level-4:
+    cost: 12
+    item: IRON_CHESTPLATE
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Thorns IV'
+    enchant:
+    - THORNS:4
+  level-5:
+    cost: 18
+    item: DIAMOND_CHESTPLATE
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Thorns V'
+    enchant:
+    - THORNS:5
+legging:
+  level-1:
+    cost: 3
+    item: LEATHER_LEGGINGS
+    quantity: 1
+    name: ''
+    lore:
+    - '&9+15% Speed'
+    effect:
+    - SPEED:15
+  level-2:
+    cost: 5
+    item: GOLD_LEGGINGS
+    quantity: 1
+    name: ''
+    lore:
+    - '&9+30% Speed'
+    effect:
+    - SPEED:30
+  level-3:
+    cost: 8
+    item: CHAINMAIL_LEGGINGS
+    quantity: 1
+    name: ''
+    lore:
+    - '&9+45% Speed'
+    effect:
+    - SPEED:45
+  level-4:
+    cost: 12
+    item: IRON_LEGGINGS
+    quantity: 1
+    name: ''
+    lore:
+    - '&9+60% Speed'
+    effect:
+    - SPEED:60
+  level-5:
+    cost: 18
+    item: DIAMOND_LEGGINGS
+    quantity: 1
+    name: ''
+    lore:
+    - '&9+75% Speed'
+    effect:
+    - SPEED:75
+boots:
+  level-1:
+    cost: 2
+    item: LEATHER_BOOTS
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Feather falling I'
+    enchant:
+    - PROTECTION_FALL:1
+  level-2:
+    cost: 4
+    item: GOLD_BOOTS
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Feather falling I'
+    - '&9Jump I'
+    enchant:
+    - PROTECTION_FALL:1
+    effect:
+    - JUMP:1
+  level-3:
+    cost: 7
+    item: CHAINMAIL_BOOTS
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Feather falling II'
+    - '&9Jump I'
+    enchant:
+    - PROTECTION_FALL:2
+    effect:
+    - JUMP:1
+  level-4:
+    cost: 10
+    item: IRON_BOOTS
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Feather falling II'
+    - '&9Jump II'
+    enchant:
+    - PROTECTION_FALL:2
+    effect:
+    - JUMP:2
+  level-5:
+    cost: 15
+    item: DIAMOND_BOOTS
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Feather falling III'
+    - '&9Jump II'
+    enchant:
+    - PROTECTION_FALL:3
+    effect:
+    - JUMP:2
+axe:
+  level-1:
+    cost: 6
+    item: WOOD_AXE
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Knockback I'
+    enchant:
+    - KNOCKBACK:1
+  level-2:
+    cost: 10
+    item: STONE_AXE
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Knockback I'
+    - '&9Poison I'
+    enchant:
+    - KNOCKBACK:1
+    effect:
+    - POISON:1
+  level-3:
+    cost: 15
+    item: IRON_AXE
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Knockback II'
+    - '&9Poison I'
+    enchant:
+    - KNOCKBACK:2
+    effect:
+    - POISON:1
+  level-4:
+    cost: 20
+    item: DIAMOND_AXE
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Knockback II'
+    - '&9Poison II'
+    enchant:
+    - KNOCKBACK:2
+    effect:
+    - POISON:2
+  level-5:
+    cost: 25
+    item: GOLD_AXE
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Knockback III'
+    - '&9Sharpness V'
+    - '&9Poison II'
+    enchant:
+    - KNOCKBACK:3
+    - DAMAGE_ALL:5
+    effect:
+    - POISON:2
+sword:
+  default:
+    item: STICK
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Sharpness II'
+    enchant:
+    - DAMAGE_ALL:2
+  level-1:
+    cost: 4
+    item: WOOD_SWORD
+    quantity: 1
+    name: ''
+  level-2:
+    cost: 6
+    item: STONE_SWORD
+    quantity: 1
+    name: ''
+  level-3:
+    cost: 10
+    item: IRON_SWORD
+    quantity: 1
+    name: ''
+  level-4:
+    cost: 15
+    item: DIAMOND_SWORD
+    quantity: 1
+    name: ''
+  level-5:
+    cost: 20
+    item: GOLD_SWORD
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Sharpness V'
+    enchant:
+    - DAMAGE_ALL:5
+bow:
+  level-1:
+    cost: 5
+    item: BOW
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Power I'
+    enchant:
+    - ARROW_DAMAGE:1
+  level-2:
+    cost: 8
+    item: BOW
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Power II'
+    enchant:
+    - ARROW_DAMAGE:2
+  level-3:
+    cost: 10
+    item: BOW
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Power III'
+    - '&9Punch I'
+    enchant:
+    - ARROW_DAMAGE:3
+    - ARROW_KNOCKBACK:1
+  level-4:
+    cost: 15
+    item: BOW
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Power IV'
+    - '&9Punch I'
+    enchant:
+    - ARROW_DAMAGE:4
+    - ARROW_KNOCKBACK:1
+  level-5:
+    cost: 20
+    item: BOW
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Power V'
+    - '&9Punch II'
+    enchant:
+    - ARROW_DAMAGE:5
+    - ARROW_KNOCKBACK:2
+arrow:
+  default:
+    item: ARROW
+    quantity: 5
+    name: ''
+  level-1:
+    cost: 5
+    item: ARROW
+    quantity: 10
+    name: ''
+    lore:
+    - '&910 arrows'
+  level-2:
+    cost: 10
+    item: ARROW
+    quantity: 20
+    name: ''
+    lore:
+    - '&920 arrows'
+  level-3:
+    cost: 20
+    item: ARROW
+    quantity: 40
+    name: ''
+    lore:
+    - '&940 arrows'
+  level-4:
+    cost: 30
+    item: ARROW
+    quantity: 128
+    name: ''
+    lore:
+    - '&9128 arrows'
+shield:
+  level-1:
+    cost: 3
+    item: SHIELD
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Slowness III'
+    - '&9Weakness I'
+    - '&9Resistance II'
+    effect:
+    - SLOWNESS:3
+    - RESISTANCE:2
+    - WEAKNESS:1
+  level-2:
+    cost: 6
+    item: SHIELD
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Slowness II'
+    - '&9Weakness I'
+    - '&9Resistance II'
+    effect:
+    - SLOWNESS:2
+    - RESISTANCE:2
+    - WEAKNESS:1
+  level-3:
+    cost: 9
+    item: SHIELD
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Slowness I'
+    - '&9Weakness I'
+    - '&9Resistance II'
+    effect:
+    - SLOWNESS:1
+    - RESISTANCE:2
+    - WEAKNESS:1
+smoke:
+  level-1:
+    cost: 6
+    item: SNOW_BALL
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Area of effect: 3'
+    - '&9Blindness: 0:03'
+    effect:
+    - SMOKE:1
+  level-2:
+    cost: 8
+    item: SNOW_BALL
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Area of effect: 4'
+    - '&9Blindness: 0:03'
+    effect:
+    - SMOKE:2
+  level-3:
+    cost: 9
+    item: SNOW_BALL
+    quantity: 1
+    name: ''
+    lore:
+    - '&9Area of effect: 4'
+    - '&9Blindness: 0:045'
+    effect:
+    - SMOKE:3
+  level-4:
+    cost: 12
+    item: SNOW_BALL
+    quantity: 2
+    name: ''
+    lore:
+    - '&9Area of effect: 4'
+    - '&9Blindness: 0:045'
+    effect:
+    - SMOKE:4
+pearl:
+  level-1:
+    cost: 8
+    item: ENDER_PEARL
+    quantity: 1
+    name: ''
+  level-2:
+    cost: 16
+    item: ENDER_PEARL
+    quantity: 2
+    name: ''

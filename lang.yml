@@ -1,0 +1,72 @@
+plugin-prefix: '&6&lFocus'
+english:
+  commands:
+    noPermission: '&cYou haven''t got permission to run this command'
+    onlyPlayer: '&cOnly player can use this command'
+    reload: '&aFocus reload complete'
+    game:
+      notEnoughPlayer: '&cNot enough player to start a game'
+      noColorChoiceIG: '&cYou can''t choose color when the game is running'
+      noOptionIG: '&cYou can''t modify option when the game is running'
+      noStartGameIG: '&cYou can''t start a new game when the game is running, use
+        /freset'
+      resetGameTitle: '&aThe game was reset'
+      resetSubTitleConsole: '&cby console'
+      resetSubTitlePlayer: '&cby {PLAYER}'
+      resetGameChat: '&aFocus reset complete'
+      notInGame: '&cYou aren''t in game'
+      noStuffChoiceOG: '&cYou can''t choose stuff when the game isn''t running'
+  gameplay:
+    deathmatchTitle: '&cDeathmatch'
+    deathmatchSubTitle: '&9coming soon'
+    playerGlowing: '&6Top player are marked'
+    round:
+      startTime: '&6Game start in {TIME} secondes'
+      openGUI: '&eOpen GUI for your stuff with &a/fstuff'
+      round: '&6Round: '
+    sidebar:
+      ip: '&esweetdream.com'
+      gamemode: '&eGamemode: &6'
+      victories: '&eVictories: &6'
+      startPoint: '&eStarting points: &6'
+      killPoint: '&eKill points: &6'
+      roundPoint: '&eRound points: &6'
+      noBody: '&7nobody'
+    endRound:
+      win: '{PLAYER} &6win this round'
+    endGame:
+      winTitle: '{PLAYER} &6win this game'
+      winner: '♛ Winner ♛: '
+      bestKill: '✪ Best killer ✪: '
+      bestVictim: '☠ Best victim ☠: '
+      roundPlayed: '► Round played: '
+      playerStats:
+        kill: 'Kills: '
+        death: 'Death: '
+        victories: 'Victories: '
+  gui:
+    gameConfiguration: '&9&lGame configuration'
+    colorPicker: '&9&lPick your color'
+    stuffPicker: '&9&lChoose your stuff'
+    gameFull: '&cThe current game is full'
+  parameters:
+    gamemode: '&6Gamemode: '
+    victories: '&6Victories: '
+    killsLimit: '&6Kills: '
+    roundsLimit: '&6Rounds: '
+    maxRoundLimit: '&6Max rounds: '
+    life: '&6Show life: '
+    startingP: '&6Starting points: '
+    killP: '&6Kill points: '
+    roundP: '&6Round points: '
+    stuff:
+      helmet: '&6Helmet: '
+      chestplate: '&6Chestplate: '
+      leggings: '&6Leggings: '
+      boots: '&6Boots: '
+      sword: '&6Sword: '
+      axe: '&6Axe: '
+      shield: '&6Shield: '
+      pearl: '&6Pearl: '
+      bow: '&6Bow: '
+      smoke: '&6Smoke: '
