@@ -13,6 +13,8 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import com.mrsweeter.dreamAPI.Configuration.PluginConfiguration;
+import com.mrsweeter.dreamAPI.CustomItem.MyPotion;
+import com.mrsweeter.dreamAPI.CustomItem.MyTippedArrow;
 import com.mrsweeter.dreamAPI.Utils.ConsoleColor;
 import com.mrsweeter.focus.Focus;
 import com.mrsweeter.focus.Players.Utils.Dual;
@@ -120,6 +122,19 @@ public class StuffCollection {
 		ItemStack item = new ItemStack(material);
 		
 		if (section instanceof ConfigurationSection)	{
+			
+			if (material == Material.ARROW || material == Material.TIPPED_ARROW || material == Material.SPECTRAL_ARROW)	{
+				if (section.contains("data") && section.getString("data").trim().length() != 0)	{
+					String str = section.getString("data");
+					item = MyTippedArrow.getArrowWithName(str.toUpperCase()).getArrow();
+				}
+			}
+			if (material == Material.POTION || material == Material.SPLASH_POTION || material == Material.LINGERING_POTION)	{
+				if (section.contains("data") && section.getString("data").trim().length() != 0)	{
+					String str = section.getString("data");
+					item = MyPotion.getPotionWithName(str.toUpperCase()).getPotion();
+				}
+			}
 			
 			ItemMeta meta = item.getItemMeta();
 			
