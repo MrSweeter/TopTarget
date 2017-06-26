@@ -64,7 +64,7 @@ public class Game {
 		startPoint = Parameters.SP_NORMAL;
 		victories = GmOption.KILLS;
 		
-		maps = Focus.maps;
+		this.maps.addAll(Focus.maps);
 		setState(StateGame.LOBBY);
 		setPlayers(new ArrayList<>());
 		alives = new ArrayList<>();
