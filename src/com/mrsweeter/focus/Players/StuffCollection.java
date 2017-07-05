@@ -168,12 +168,12 @@ public class StuffCollection {
 				list.add("");
 				if (section.contains("effect"))	{
 					for (String str : section.getStringList("effect"))	{
-						list.add("§7" + str);
+						list.add("§7" + str.toUpperCase());
 					}
 				}
 				if (section.contains("enchant"))	{
 					for (String str : section.getStringList("enchant"))	{
-						list.add("§7" + str);
+						list.add("§7" + str.toUpperCase());
 					}
 				}
 			}

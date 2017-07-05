@@ -74,8 +74,22 @@ public class EffectUtils {
 	// Temporary Effect
 	
 	public static void applyPoison(Player victim, int level) {
-		
 		PotionEffect effect = new PotionEffect(PotionEffectType.POISON, level*70, 0, true, true);
+		victim.addPotionEffect(effect);
+	}
+	
+	public static void applyNausea(Player victim, int level)	{
+		PotionEffect effect = new PotionEffect(PotionEffectType.CONFUSION, level*70, 0, true, true);
+		victim.addPotionEffect(effect);
+	}
+	
+	public static void applyWither(Player victim, int level)	{
+		PotionEffect effect = new PotionEffect(PotionEffectType.WITHER, level*70, 0, true, true);
+		victim.addPotionEffect(effect);
+	}
+	
+	public static void applyLevitation(Player victim, int level)	{
+		PotionEffect effect = new PotionEffect(PotionEffectType.LEVITATION, level*70, 0, true, true);
 		victim.addPotionEffect(effect);
 	}
 	

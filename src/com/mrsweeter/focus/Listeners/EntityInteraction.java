@@ -137,6 +137,18 @@ public class EntityInteraction implements Listener	{
 						level = Integer.parseInt(lores.get(pos).substring(lores.get(pos).indexOf(":")+1));
 						EffectUtils.applyPoison(victim, level);
 					}
+					if ((pos = EffectUtils.getMatchingIndex(lores, "§7NAUSEA:\\d+")) != -1)	{
+						level = Integer.parseInt(lores.get(pos).substring(lores.get(pos).indexOf(":")+1));
+						EffectUtils.applyNausea(victim, level);
+					}
+					if ((pos = EffectUtils.getMatchingIndex(lores, "§7WITHER:\\d+")) != -1)	{
+						level = Integer.parseInt(lores.get(pos).substring(lores.get(pos).indexOf(":")+1));
+						EffectUtils.applyNausea(victim, level);
+					}
+					if ((pos = EffectUtils.getMatchingIndex(lores, "§7LEVITATION:\\d+")) != -1)	{
+						level = Integer.parseInt(lores.get(pos).substring(lores.get(pos).indexOf(":")+1));
+						EffectUtils.applyNausea(victim, level);
+					}
 				}
 			}
 		}
